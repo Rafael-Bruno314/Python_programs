@@ -1,0 +1,34 @@
+x
+Modelo selecionado vai carregar aqui
+Esta ação não está disponível.
+\ (\ newCommand {\ vecs} [1] {\ overset {\ scriptStyle \ rightharpoonup} {\ mathbf {#1}}} \)
+\ (\ newCommand {\ Vecd} [1] {\ Overset {-\!-\! \ Rightharpoonup} {\ vphantom {a} \ smash {#1}}} \)
+\ (\ newCommand {\ id} {\ mathrm {id}} \) \ (\ newCommand {\ span} {\ mathrm {span}} \)
+(\ newCommand {\ kernel} {\ mathrm {null} \,} \) \ (\ newCommand {\ range} {\ mathrm {range} \,} \)
+\ (\ newCommand {\ realPart} {\ mathrm {re}} \) \ (\ newCommand {\ imaginaryPart} {\ mathrm {iM}} \)
+\ (\ newCommand {\ argumentos} {\ mathrm {arg}} \) \ (\ newCommand {\ norma} [1] {\ | #1 \ |} \)
+\ (\ newCommand {\ Inner} [2] {\ Langle #1, #2 \ rangle} \)
+\ (\ newCommand {\ span} {\ mathrm {span}} \)
+\ (\ newCommand {\ id} {\ mathrm {id}} \)
+\ (\ newCommand {\ span} {\ mathrm {span}} \)
+\ (\ newCommand {\ kernel} {\ mathrm {null} \,} \)
+\ (\ newCommand {\ range} {\ mathrm {range} \,} \)
+\ (\ newCommand {\ realpart} {\ mathrm {re}} \)
+\ (\ newCommand {\ ImaginaryPart} {\ Mathrm {im}} \)
+\ (\ newCommand {\ argument} {\ mathrm {arg}} \)
+\ (\ newCommand {\ norm} [1] {\ | #1 \ |} \)
+\ (\ newCommand {\ Inner} [2] {\ Langle #1, #2 \ rangle} \)
+\ (\ newCommand {\ span} {\ mathrm {span}} \) \ (\ newCommand {\ aa} {\ unicode [.8,0] {x212b}} \)
+\ (\ newCommand {\ vectora} [1] {\ vec {#1}} % seta \)
+\ (\ newCommand {\ vectorat} [1] {\ vec {\ text {#1}}} % seta \)
+\ (\ newCommand {\ vectorb} [1] {\ overset {\ scriptStyle \ rightharpoonup} {\ mathbf {#1}}} \)
+\ (\ newCommand {\ vectorc} [1] {\ textbf {#1}} \)
+\ (\ newCommand {\ vectord} [1] {\ OverrightArrow {#1}} \)
+\ (\ newCommand {\ vectordt} [1] {\ overrightArrow {\ text {#1}}} \)
+\ (\ newCommand {\ veecte} [1] {\ overset {-\!-\! \ rightharpoonup} {\ vphantom {a} \ smash {\ mathbf {#1}}} \)
+\ (\ newCommand {\ vecs} [1] {\ overset {\ scriptStyle \ rightharpoonup} {\ mathbf {#1}}} \)
+\ (\ newCommand {\ Vecd} [1] {\ Overset {-\!-\! \ Rightharpoonup} {\ vphantom {a} \ smash {#1}}} \)
+Sabemos muito sobre a atmosfera.Demorou décadas, se não séculos, de observação cuidadosa e teoria perspicaz, baseada em leis físicas e químicas sólidas.Temos mais a aprender.Você pode ajudar a promover o entendimento da atmosfera, mas primeiro deve entender os conceitos físicos e a matemática que já são bem conhecidos.Esse é o objetivo principal deste curso - dar a você esse entendimento.
+O que se segue, abaixo, é uma série de imagens e imagens gráficas.Cada um descreve algum processo atmosférico que será abordado neste curso.Veja essas imagens;Você os verá novamente, cada um em uma das próximas dez lições.Obviamente, em cada observação, existem muitos processos simultaneamente.Na última lição, você terá a oportunidade de analisar uma observação e anexar os princípios físicos e a matemática que descrevem vários processos que estão causando os fenômenos que você está observando.
+Esta página intitulada 1.1: A atmosfera é… é compartilhada sob uma licença CC BY-NC-SA 4.0 e foi de autoria, remixada e/ou com curadoria por William Brune (John A. Dutton: Instituto de Educação E) via conteúdo de origem que foieditado para o estilo e os padrões da plataforma LibreTexts.
+As bibliotecas LibreTexts são alimentadas pelo Good CXONE Expert e são apoiadas pelo Projeto Piloto de Livros Abertos do Departamento de Educação, o Escritório da Reitor da UC Davis, a Biblioteca da UC Davis, o Programa de Soluções de Learnamento Acessível da Universidade Estadual da Califórnia e Merlot.Também reconhecemos o apoio anterior da National Science Foundation sob números de concessão 1246120, 1525057 e 1413739. Legal.Declaração de acessibilidade Para obter mais informações, entre em contato conosco em info@libretaxts.org.
