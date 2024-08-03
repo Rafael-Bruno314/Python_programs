@@ -1,8 +1,6 @@
 import subprocess
 import time
 import os
-import win32com as win32
-
 
 # Caminho do arquivo a ser aberto
 diretorio = os.getcwd()
