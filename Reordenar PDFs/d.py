@@ -1,34 +1,15 @@
 import os
-import subprocess
-from PyPDF2 import PdfWriter
+from pypdf import PdfMerger, PdfWriter
 
 merger = PdfWriter()
-caminho_pasta = 'C:\\Users\Rafael Bruno\\Documents\Formação Pedagógica\\PDFs das Disciplinas\\Planejamento Escolar e Avaliação da Aprendizagem'
-arquivos_pdf = []
-"""
-for nome_arquivo in os.listdir(caminho_pasta):
-    # Verifica se o arquivo é um PDF
-    if nome_arquivo.endswith('.pdf'):
-        arquivos_pdf.append(caminho_pasta+'\\'+nome_arquivo)
 
+for file in os.listdir():
+    if file.endswith(".pdf"):
+        try:
+            merger.append(file)
+        except TypeError as e:
+            #mover_arquivo(caminho_destino, caminho_pasta)
+            print(f"Erro ao processar o arquivo {file}: {e}")
 
-print(arquivos_pdf)
-
-for arquivo in arquivos_pdf:
-    #caminho_completo = os.path.join(caminho_pasta, arquivo)
-    # O subprocess é usado para abrir os arquivos PDF
-    subprocess.Popen([arquivo], shell=True)
-"""
-
-for nome_arquivo in os.listdir():
-    # Verifica se o arquivo é um PDF
-    if nome_arquivo.endswith('.pdf'):
-        arquivos_pdf.append(nome_arquivo)
-
-print(arquivos_pdf)
-
-for pdf in arquivos_pdf:
-    merger.append(pdf)
-
-merger.write("merged-pdf.pdf")
+merger.write("output.pdf")
 merger.close()

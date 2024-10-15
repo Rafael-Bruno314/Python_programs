@@ -1,38 +1,17 @@
-from PyPDF2 import PdfWriter
+import os
+import shutil
+import time
+from pypdf import PdfWriter
 
 merger = PdfWriter()
 
-apostila = "C:\\Users\\Rafael Bruno\\Documents\\Formação Pedagógica\\PDFs das Disciplinas\\Apostila definitiva\\Apostila (quase) definitiva v.01.pdf"
-geometria = "C:\\Users\\Rafael Bruno\\Downloads\\Aula 02 Ângulos.pdf"
-tendencias = "C:\\Users\\Rafael Bruno\\Downloads\\Tendências Pedagógicas.pdf"
+nome_do_arquivo_apostila = "Apostila (quase) definitiva v.02.pdf"
+nome_do_anexo = "Planejamento.pdf"
 
 
-input1 = open(geometria, "rb")
-input2 = open(tendencias, "rb")
+merger.append(nome_do_arquivo_apostila)
+merger.merge(position=1857, fileobj=nome_do_anexo)
 
 
-# add the first 3 pages of input1 document to output
-merger.append(fileobj=input1, pages=(0, 3))
-
-# append entire input3 document to the end of the output document
-#merger.append(input3)
-
-
-# insert the first page of input2 into the output beginning after the second page
-merger.merge(position=2, fileobj=input2, pages=(0, 1))
-
-
-
-# Write to an output PDF document
-output = open("document-output.pdf", "wb")
-merger.write(output)
-
-# Close File Descriptors
+merger.write("output.pdf")
 merger.close()
-output.close()
-
-
-
-
-
-
