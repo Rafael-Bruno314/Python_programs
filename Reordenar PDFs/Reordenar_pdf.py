@@ -5,13 +5,25 @@ from pypdf import PdfWriter
 
 merger = PdfWriter()
 
-nome_do_arquivo_apostila = "Apostila (quase) definitiva v.02.pdf"
-nome_do_anexo = "Planejamento.pdf"
+nome_do_arquivo_apostila = "Apostila (quase) definitiva v.03.pdf"
+nome_do_anexo = ""
 
+"""
+merger.append("Nome do arquivo.pdf", pages=(pag_inicial, pag_final))
+merger.merge(position= a partir de qual página adicionar o anexo, fileobj="Nome do arquivo.pdf", pages=(pag_inicial, pag_final))
+"""
+"""
+merger.append(nome_do_arquivo_apostila, pages=(0, 951))
 
-merger.append(nome_do_arquivo_apostila)
-merger.merge(position=1857, fileobj=nome_do_anexo)
+merger.append("Capa - Fundamentos da Educação.pdf")
+merger.append("Fund.pdf")
+merger.append("Capa - Fund. da Educ. de Jovens e Adultos e Educ. Popular.pdf")
+merger.append("EJA.pdf")
 
+merger.append(nome_do_arquivo_apostila, pages=(1559, 4744))
+"""
+
+#Sumário.pdf
 
 merger.write("output.pdf")
 merger.close()
