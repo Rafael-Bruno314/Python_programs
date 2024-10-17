@@ -5,8 +5,15 @@ from pypdf import PdfWriter
 
 merger = PdfWriter()
 
-nome_do_arquivo_apostila = "Apostila (quase) definitiva v.03.pdf"
+nome_do_arquivo_apostila = "Apostila (quase) definitiva v.04 3x3.pdf"
 nome_do_anexo = ""
+
+
+merger.append("Capa de Livro Biologia Verde Branco e Preto.pdf")
+merger.append("Sumário.pdf")
+merger.append(nome_do_arquivo_apostila)
+merger.append("Fundo.pdf")
+
 
 """
 merger.append("Nome do arquivo.pdf", pages=(pag_inicial, pag_final))
@@ -22,8 +29,6 @@ merger.append("EJA.pdf")
 
 merger.append(nome_do_arquivo_apostila, pages=(1559, 4744))
 """
-
-#Sumário.pdf
 
 merger.write("output.pdf")
 merger.close()
