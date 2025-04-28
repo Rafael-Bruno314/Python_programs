@@ -2,12 +2,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn import metrics
+import os
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("advertising.csv")
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), "advertising.csv"))
 
 x = df.drop('Vendas', axis=1)
 y = df['Vendas']

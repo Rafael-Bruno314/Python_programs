@@ -1,7 +1,9 @@
 import pandas as pd
+import os
 
-tabela = pd.read_excel(r'C:\Users\1234\Downloads\Produtos.xlsx')
+tabela = pd.read_excel(os.path.join(os.path.dirname(__file__), "Produtos.xlsx"))
 print(tabela)
+
 
 cotacao_dolar = 5.48
 cotacao_euro = 6.62

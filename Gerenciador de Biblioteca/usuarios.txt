@@ -9,4 +9,4 @@
     "Helena",
     "Igor",
     "Juliana"
-,"Rafa","Rafa","Ráááçççõ´põ","Rafael B","Roma","aferg","ffefw2","Tíiií","´tú","tím"]
+,"Rafa","Rafael"]

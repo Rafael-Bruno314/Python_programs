@@ -3,6 +3,7 @@ import time
 from gerenciar_livros import *
 from gerenciar_usuarios import Usuarios
 
+
 def interface(retorno):
     if(retorno == 0):
         print("-"*50)
@@ -56,7 +57,7 @@ def interface(retorno):
             if(cadastro == "n"):
                 print("Qual seu nome? ", end=" ")
                 nome = input()
-                Biblioteca.emprestar_livro(cadastra_db(nome,"usuarios.txt"))
+                Biblioteca.emprestar_livro(cadastra_user(nome))
                 break
             else:
                 usuario = input("Digite seu nome de usuário:")

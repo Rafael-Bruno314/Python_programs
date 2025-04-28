@@ -1,6 +1,8 @@
 import pandas as pd
+import os
 
-df = pd.read_excel(r'Vendas - Dez.xlsx')
+df = pd.read_excel(os.path.join(os.path.dirname(__file__), 'Vendas - Dez.xlsx'))
+
 print(df)
 
 faturamento = df['Valor Final'].sum()

@@ -50,7 +50,7 @@ class Livros():
     def adicionar_livro(titulo, autor, isbn):
         print("Adicionando novo livro")
         livro = json.dumps({"nome": titulo, "autor": autor, "isbn": isbn}, ensure_ascii=False)
-        cadastra_db(livro,"livros.txt")
+        cadastra_livro(livro)
         print(f"Livro '{titulo}' de {autor} com ISBN {isbn} adicionado com sucesso.")
 
     def atualizar_livro(info:str):
@@ -63,7 +63,6 @@ class Livros():
         nova_lista[indice][dado] = valor
         atualiza_livro(nova_lista)
         print(f" Livro atualizado com sucesso para {nova_lista[indice][dado]}")
-        
 
     def excluir_livro(info: str):
         indice = Visualizar.procurar_livros(info)

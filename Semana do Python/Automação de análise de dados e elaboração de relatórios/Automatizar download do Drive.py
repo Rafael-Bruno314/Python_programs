@@ -8,7 +8,6 @@ pyautogui.PAUSE = 1
 pyautogui.press("winleft")
 pyautogui.write("chrome")
 pyautogui.press("enter")
-# pyautogui.alert("Alguma coisa")
 pyautogui.hotkey('ctrl', 't')
 
 # Abrindo o drive
@@ -19,7 +18,6 @@ pyautogui.press("enter")
 time.sleep(10)
 
 "baixar a base de dados atualizada - mais ou menos isso"
-# print(pyautogui.position())
 pyautogui.click(1350, 378, clicks=3)
 time.sleep(10)
 pyautogui.click(1030, 300, clicks=3)

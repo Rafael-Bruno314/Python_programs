@@ -1,7 +1,9 @@
 import plotly.express as px
+import os
 import pandas as pd
 
-df = pd.read_csv(r'C:\Users\1234\Downloads\telecom_users.csv')
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'telecom_users.csv'))
+
 df = df.drop(["Unnamed: 0"], axis=1)
 df["TotalGasto"] = pd.to_numeric(df["TotalGasto"], errors='coerce')
 df = df.dropna(how='all', axis=1)

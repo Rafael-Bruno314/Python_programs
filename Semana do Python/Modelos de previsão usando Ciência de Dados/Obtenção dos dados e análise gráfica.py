@@ -1,8 +1,10 @@
+import os
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("advertising.csv")
+
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), "advertising.csv"))
 print(df)
 
 print(df.info())

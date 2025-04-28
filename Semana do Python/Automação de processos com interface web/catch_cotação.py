@@ -1,4 +1,5 @@
 import pyperclip
+import time
 from pyautogui import *
 
 PAUSE = 2
@@ -10,7 +11,7 @@ write("chrome")
 press("enter")
 
 
-# time.sleep(4)
+time.sleep(1)
 # hotkey('ctrl', 't')
 
 def cambio(link):
@@ -23,8 +24,9 @@ def cambio(link):
     time.sleep(3)
     print(position())
 
-    # time.sleep(2)
+    time.sleep(2)
     click(812, 499)
+
     hotkey('ctrl', 'c')
 
     spam = pyperclip.paste()

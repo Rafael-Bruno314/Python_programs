@@ -19,7 +19,7 @@ class Usuarios:
         if temp_user == "":
             print("Esse nome não foi encontrado na base de dados. Vamos cadastrá-lo")
             time.sleep(3)
-            temp_user = cadastra_db(user,"usuarios.txt")
+            temp_user = cadastra_user(user)
         return temp_user
 
 
