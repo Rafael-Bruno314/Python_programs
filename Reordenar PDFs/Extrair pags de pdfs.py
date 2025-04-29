@@ -4,9 +4,13 @@ from pypdf import PdfWriter
 
 
 # Configuração dos arquivos e páginas:
-pdf_de_entrada = "Nome do arquivo"  # Caminho/nome do PDF original
-paginas_a_isolar = [2,3,4]  # Lista das páginas para extrair (numeração começa em 1)
-nome_pdf_saida = "Saída"  # Nome do arquivo de saída
+
+file_path = os.path.dirname(__file__)
+file_name = "" # Adicione o nome do arquivo que queira extrair as páginas
+
+pdf_de_entrada = f"{file_path}\\{file_name}"  # Caminho/nome do PDF original
+paginas_a_isolar = [22]  # Lista das páginas para extrair (numeração começa em 1)
+nome_pdf_saida = f"pag_{paginas_a_isolar}.pdf"  # Nome do arquivo de saída
 
 if not os.path.exists(pdf_de_entrada):
     print(f"Erro: Arquivo '{pdf_de_entrada}' não encontrado!")
