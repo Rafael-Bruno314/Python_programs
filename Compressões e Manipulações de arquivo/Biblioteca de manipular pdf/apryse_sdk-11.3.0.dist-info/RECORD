@@ -1,0 +1,14 @@
+apryse_sdk-11.3.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+apryse_sdk-11.3.0.dist-info/METADATA,sha256=4LizRNRLGmTVAiiHcrKjSgL4CNeMczKVZb9mbrYh18E,2685
+apryse_sdk-11.3.0.dist-info/RECORD,,
+apryse_sdk-11.3.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apryse_sdk-11.3.0.dist-info/WHEEL,sha256=y4n9_669c4ZQLyT56MHjc_JUbnwtaZfMVMycweN557o,102
+apryse_sdk-11.3.0.dist-info/license.pdf,sha256=bMRcJfsScNKQP9GDEghWqi7kQQ_Je3xQ6CRQW8OJojA,213950
+apryse_sdk-11.3.0.dist-info/top_level.txt,sha256=YGW4FBB_FGRvDYAPslLGVM6MLBIFsNLZROh4WixixQg,11
+apryse_sdk/PDFNetC.dll,sha256=qYH_2q-5Lbz5mS1KSwEwcPUjzW-Yke1rprcBvO26S1Q,45731472
+apryse_sdk/PDFNetPyLibInfo,sha256=DRcrs7v_xc1skzV1pUpmHDv66XkVW5yIaV8bB9SNe-Y,13
+apryse_sdk/PDFNetPython.py,sha256=SLbDnv_gx7_FRdYX1Qv3YBHYaCtePaLT4YNP3NHIHSA,1895422
+apryse_sdk/_PDFNetPython.pyd,sha256=no3BGJkfaiXuyBvtN8XlV0Ui7eZBcZS_vrWbTqMyygM,8310784
+apryse_sdk/__init__.py,sha256=6a6nTivYsk4Z6db6BcpZfNralVX6HWKwVW4_nkamR2c,474
+apryse_sdk/__pycache__/PDFNetPython.cpython-311.pyc,,
+apryse_sdk/__pycache__/__init__.cpython-311.pyc,,

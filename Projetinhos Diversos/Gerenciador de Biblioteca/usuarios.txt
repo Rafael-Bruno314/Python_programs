@@ -1,0 +1,12 @@
+[
+    "Taylor",
+    "Bruno",
+    "Carlos",
+    "Maria Clara",
+    "Eduardo",
+    "Fernanda",
+    "Gabriel",
+    "Helena",
+    "Igor",
+    "Juliana"
+,"Rafa","Rafael"]

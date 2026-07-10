@@ -1,0 +1,164 @@
+tutorial video:
+00:00 Introduction
+01:55 What is Python?
+03:40 Why is Python popular?
+04:55 Features of Python
+6:50 Where is Python used in the industry?
+7:50 Learning Path
+9:15 Career Opportunities
+10:30 How Netflix use Python?
+11:55 How does it use Python?
+18:15 Python Developer Salary
+18:50 Who is Python Developer?
+19:20 Python Developer Job Trends
+21:55 How to become a Python Developer?
+23:05 Who is a Python developer?
+33:50 Job Roles
+41:40 Emerging Job Roles
+44:30 Road Map
+47:05 Python Installation
+54:30 How to run a Python program?
+58:35 Best IDE for Python
+59:35 What is an IDE?
+59:50 Features of an IDE
+1:00:50 Best IDEs of Python
+1:07:40 PyCharm Tutorial
+1:07:42 Introduction to PyCharm
+1:09:07 Features of PyCharm
+1:28:02 Comments in Python
+1:28:52 What are Comments?
+1:29:47 When to use Python?
+1:30:22 How to write comments in Python?
+1:32:22 Types of Comments
+1:35:57 Docstring Comments
+1:39:02 Variables & Data Types
+1:39:17 Variable definition & Declaration
+1:41:22 Data Types
+1:41:42 Numbers
+1:43:12 String
+1:46:02 List
+1:48:12 Dictionary
+1:50:12 Tuple
+1:51:27 Set
+1:53:52 Type Conversion
+1:54:42 Python Collections
+1:57:12 Specialised Collections Data Types
+2:14:57 Arrays
+2:15:32 What is an Array?
+2:17:27 How to create Arrays in Python?
+2:20:52 Accessing Array Elements
+2:22:42 Basic Array Operations
+2:24:27 Adding elements to an Array
+2:27:52 Removing Elements of an Array
+2:33:42 Slicing an Array
+2:36:12 Looping through an Array
+2:39:57 Hash Table and HashMap
+2:41:37 Creating Dictionaries
+2:44:02 Nested dictionaries
+2:46:52 Performing Operations on Hash Table
+2:55:32 Operators in Python
+3:13:17 Loops in Python 
+3:13:52 Why to use Python?
+3:16:12 What are Loops?
+3:18:07 Loops in Python
+3:18:17 While Loop
+3:26:22 For Loop
+3:32:22 Nested Loop
+3:48:12 Patterns in Python
+
+4:24:27 File Handling
+4:25:07 Why need File Handling
+4:27:02 Types of Files
+4:28:37 What is File Handling?
+4:29:22 Python File Handling System
+4:32:52 File Operations for Reading
+4:41:27 Python File Write Method
+
+4:47:37 Decorator
+4:48:22 Functions in Python
+4:54:07 Decorators in Python
+5:08:32 Lambda
+5:10:17 How to write Anonymous functions?
+5:29:02 Map-Reduce Functions
+5:29:47 Introduction to map(), filter(), reduce()
+5:46:22 What are Generators?
+5:47:32 Normal functions vs Generators
+5:48:02 Writing Generators in Python
+5:52:57 Generators with Loops
+5:53:57 Generator Expressions
+5:56:22 Use-Cases
+
+6:02:27 OOPS Concepts
+6:03:07 Classes & Objects
+6:33:47 Inheritance in Python
+6:36:52 Types of Inheritance
+6:42:47 Python Super Function
+6:44:52 Exception Handling
+6:54:42 Try & Except block
+7:05:52 Python Module
+7:07:47 How to create a Module?
+7:17:33 Python Modules Search Path
+7:24:23 Date & Time
+7:24:58 time module
+
+7:38:23 Numpy
+7:38:58 What is Numpy?
+7:41:43 Numpy vs List
+7:49:03 Numpy Operations
+8:05:23 Numpy Special Functions
+
+8:09:58 SciPy
+8:10:48 What is Python SciPy?
+8:12:23 Basic Functions
+8:15:48 Special Functions
+8:18:53 Integration Functions
+8:24:43 Linear Algebra
+8:26:48 Interpolation Functions
+
+8:28:18 Pandas
+8:29:18 Data life-cycle
+8:31:23 What is Pandas?
+8:35:33 Pandas Operations
+8:54:13 Example
+
+8:59:38 Python for Statistics
+9:02:43 Pydoop
+9:04:03 Matplotlib
+9:04:28 Data Visualization
+9:09:13 Matplotlib
+9:10:13 Types of Plots
+9:30:13 Multiple Plots
+
+9:32:18 Seaborn
+9:32:53 Introduction to Seaborn
+9:33:33 Seaborn vs Matplotlib
+9:34:28 How to install Seaborn?
+9:34:48 Installing Dependencies
+9:35:33 Python Seaborn Functions
+9:44:23 Multi-Plot Grids
+9:47:08 Plot Aesthetic
+9:50:58 FIFA Use-case
+10:15:33 OpenCV Tutorial
+10:16:03 What is Computer Vision?
+10:16:48 How computer reads an Image?
+10:18:53 What is OpenCV?
+10:19:58 Basic operations with OpenCV
+10:27:33 Face Detection
+10:27:38 Face Detection using OpenCV
+10:31:53 Capturing Video
+10:43:28 Use-case - Motion Detector
+
+10:54:58 Web Development Framework
+10:55:23 What are Frameworks in Python?
+11:08:34 Python Web Development
+11:09:04 Python Web Development Libraries
+11:09:24 Python & Django
+11:28:19 Web Scraping
+11:33:49 Packages used for web Scraping
+
+
+C:\Users\1234\AppData\Local\Programs\Python\Python310\python.exe -m
+
+C:\Users\1234\AppData\Local\Programs\Python\Python310\Lib
+
+C:\Users\1234\anaconda3\Lib\site-packages
