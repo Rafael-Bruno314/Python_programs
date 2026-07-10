@@ -28,8 +28,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 # ========================================
 # 🎀 CONFIGURAÇÕES
 # ========================================
-MEU_NUMERO = "+5531987719298"          # Apenas informativo, não é usado no envio
-NUMERO_NOIVA = "+5531996649776"        # Número da noiva com DDI (ex: +5511999998888)
+MEU_NUMERO = "+XXYY9ZZZZ-ZZZZ"          # Apenas informativo, não é usado no envio
+NUMERO_NOIVA = "+XXYY9ZZZZ-ZZZZ"        # Número da pessoa com DDI (ex: +5511999998888)
 INTERVALO_SEGUNDOS = 15              # 1 hora = 3600 segundos. Mude à vontade.
 
 MENSAGENS = [

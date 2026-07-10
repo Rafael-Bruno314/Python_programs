@@ -1,36 +1,36 @@
 # Python_programs
 
-Repositório com scripts  em Python para automações, manipulação de arquivos e projetos educacionais desenvolvidos em Python por [Rafael Bruno](https://github.com/Rafael-Bruno314).
+Repository with Python scripts for automation, file manipulation, and educational projects developed in Python by [Rafael Bruno](https://github.com/Rafael-Bruno314).
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0--1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-## Estrutura
+## Structure
 
-### Ferramentas práticas
+### Practical Tools
 
-- **Atualização em massa de pacotes Python**  
-  Script para atualizar todos os pacotes instalados no ambiente.
+- **Bulk Python package updater**  
+  Script to update all installed packages in the environment.
 
-- **Baixar video youtube com multiplas linhas de audio**  
-  Download de vídeos e playlists com suporte a múltiplas faixas de áudio.
+- **Download YouTube videos with multiple audio tracks**  
+  Download videos and playlists with support for multiple audio tracks.
 
-- **Bot de WhatsApp**  
-  Automação para WhatsApp - do seu número pessoal para um número específico.
+- **WhatsApp Bot**  
+  Automation for WhatsApp - from your personal number to a specific number.
 
-- **Compressões e Manipulações de arquivo**  
-  Conjunto de utilitários para processamento de arquivos:
-  - Compressão de PDFs (redução de tamanho em lote)
-  - Compressão de imagens
-  - Compressão de vídeos (único e em lotes)
-  - Conversão de PDF para Word
-  - Reordenação de páginas em PDF
+- **File compression and manipulation**  
+  Set of utilities for file processing:
+  - PDF compression (batch size reduction)
+  - Image compression
+  - Video compression (single and batch)
+  - PDF to Word conversion
+  - PDF page reordering
 
-### Estudos e exercícios
+### Studies and exercises
 
-- **Projetinhos Diversos**
-  - Gerenciador de Biblioteca (CRUD simples para catalogar livros usando banco de dados em .txt)
-  - Método de Monte Carlo
-  - Práticas do full course
-  - Semana do Python (minicurso)
-  - Trabalhando com Numpy (operações com arrays)
-  - Unindo informações de revistas do Qualis (Filtra e organiza dados de revistas científicas por área e classificação)
+- **Miscellaneous small projects**
+  - Library Manager (simple CRUD to catalog books using a .txt database)
+  - Monte Carlo method
+  - Full course practices
+  - Python Week (mini course)
+  - Working with Numpy (array operations)
+  - Merging Qualis journal information (Filters and organizes scientific journal data by area and classification)
