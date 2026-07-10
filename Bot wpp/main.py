@@ -79,7 +79,7 @@ def fechar_popup_se_existir(driver):
         pass  # não era crítico
 
 
-def esperar_whatsapp_carregar(driver, timeout=120):
+def esperar_whatsapp_carregar(driver, timeout=60):
     """Abre o WhatsApp Web e aguarda o login (QR Code)."""
     print("🚀 Abrindo WhatsApp Web...")
     driver.get("https://web.whatsapp.com")
