@@ -11,9 +11,6 @@ Repository with Python scripts for automation, file manipulation, and educationa
 - **Bulk Python package updater**  
   Script to update all installed packages in the environment.
 
-- **Download YouTube videos with multiple audio tracks**  
-  Download videos and playlists with support for multiple audio tracks.
-
 - **WhatsApp Bot**  
   Automation for WhatsApp - from your personal number to a specific number.
 
@@ -24,6 +21,13 @@ Repository with Python scripts for automation, file manipulation, and educationa
   - Video compression (single and batch)
   - PDF to Word conversion
   - PDF page reordering
+
+- **Video Manipulation**  
+  Tools for editing and processing video files:
+  - Download YouTube videos with multiple audio tracks
+  - Video compression
+  - Video splitting
+  - Video overlay (for brain-rot users)
 
 ### Studies and exercises
 
